@@ -8,10 +8,10 @@
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body class="bg-black">
-    <div class="container min-h-[100%] bg-[url('MEDIA/hero.png')]  bg-cover bg-bottom min-w-full">
+    <div class="container min-h-screen bg-[url('MEDIA/hero.png')]  bg-cover bg-contain bg-bottom min-w-full">
         <nav class="text-white flex justify-between w-[90%] mx-auto pt-5 items-center">
             <img src="./MEDIA/DEXLOGO.svg" alt="">
-            <ul class="md:flex md:justify-between md:gap-12 md:items-center z-[] md:z-auto md:static absolute bg-slate-700 md:bg-transparent w-[50vw] md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[400px] transition-all ease-in duration-500 overflow-visible flex flex-col gap-3 justify-center items-center right-0 rounded-lg md:flex-row">
+            <ul class="md:flex md:justify-between md:gap-12 md:items-center z-[] md:z-auto md:static absolute bg-black md:bg-transparent w-full md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[400px] transition-all ease-in duration-500 overflow-visible flex flex-col gap-3 justify-center items-center right-0 rounded-lg md:flex-row">
                 <li class="hover:text-green-600 duration-500"><a href="#about">ABOUT</a></li>
                 <li class="hover:text-green-600 duration-500"><a href="#contact">CONTACT</a></li>
                 <li class="hover:text-green-600 duration-500"><a href="#portfolio">PORTFOLIO</a></li>
@@ -21,21 +21,11 @@
                 <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
             </div>
         </nav>
-        <!-- <div class="container mt-24 mx-auto min-w-full">
-            <div class="text-white min-w-full mx-auto flex flex-col items-center">
-                <h1 class="font-extrabold text-center text-wrap text-[60px] md:text-[80px] leading-none w-auto">CAPITALIZE ON DEGEN</h1>
-                <h2 class="text-sm md:text-lg text-center w-[60%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent.</h2>
-            </div>
-            <div class="mx-auto min-w-full flex flex-col justify-center items-center gap-3 mt-5">
-                <button class="bg-white px-3 py-2 rounded-full max-w-[200px] text-sm">BECOME A MEMBER</button>
-                
-            </div>
-        </div> -->
-        <div class="flex container  mx-auto mt-40 w-[90%]">
+        <div class="flex container  mx-auto mt-80 w-[90%]">
             <div class="mx-auto">
                 <div class="text-white">
                     <h1 class="font-extrabold text-[50px] md:text-[80px] leading-none w-auto">CAPITALIZE ON DEGEN</h1>
-                    <h2 class="text-[12px] md:text-lg  w-[60%] mt-2">Where Solana degens come together to trade, learn, and grow in the world of DeFi.
+                    <h2 class="text-[12px] md:text-lg  w-auto mt-2">Where Solana degens come together to trade, learn, and grow in the world of DeFi.
                     </h2>
                 </div>
                 <div class="mt-3">
@@ -105,10 +95,10 @@
             <h1 class="text-white text-[30px] font-bold">BECOME A MEMBER</h1>
         </div>
         <div class="flex gap-16 items-center justify-center ">
-            <a href="#"><img class="w-8 " src="./MEDIA/icons8-instagram (1).svg" alt=""></a>
-            <a href="#"><img class="w-8 " src="./MEDIA/icons8-telegram.svg" alt=""></a>
-            <a href="#"><img class="w-8 " src="./MEDIA/icons8-whatsapp.svg" alt=""></a>
-            <a href="#"><img class="w-8 " src="./MEDIA/icons8-discord.svg" alt=""></a>
+            <a href="#"><img class="w-6 " src="./MEDIA/icons8-instagram (1).svg" alt=""></a>
+            <a href="#"><img class="w-6 " src="./MEDIA/icons8-telegram.svg" alt=""></a>
+            <a href="#"><img class="w-6 " src="./MEDIA/icons8-whatsapp.svg" alt=""></a>
+            <a href="#"><img class="w-[28px] " src="./MEDIA/icons8-discord.svg" alt=""></a>
         </div>
     </div>
     <div class="flex items-center justify-center">
@@ -119,7 +109,7 @@
             let list = document.querySelector('ul')
 
             e.name === 'menu-outline' ? (e.name = "close-outline",list.classList.
-            add('top-[80px]') , list.classList.add('opacity-100')) : (e.name = "menu-outline" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+            add('top-[0px]') , list.classList.add('opacity-100')) : (e.name = "menu-outline" ,list.classList.remove('top-[0px]'),list.classList.remove('opacity-100'))
         }
     </script>
 </body>
