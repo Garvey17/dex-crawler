@@ -604,8 +604,16 @@ video {
   top: 80px;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .z-\[-1\] {
   z-index: -1;
+}
+
+.z-\[\] {
+  z-index: ;
 }
 
 .mx-auto {
@@ -649,6 +657,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .block {
   display: block;
 }
@@ -663,6 +675,26 @@ video {
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-\[\] {
+  min-height: ;
+}
+
+.min-h-\[85\%\] {
+  min-height: 85%;
+}
+
+.min-h-\[\%\] {
+  min-height: %;
+}
+
+.min-h-\[95\%\] {
+  min-height: 95%;
+}
+
+.min-h-\[100\%\] {
+  min-height: 100%;
 }
 
 .w-8 {
@@ -689,6 +721,18 @@ video {
   width: 100%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[50\] {
+  width: 50;
+}
+
+.w-\[50vw\] {
+  width: 50vw;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -699,6 +743,10 @@ video {
 
 .max-w-\[75\%\] {
   max-width: 75%;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .cursor-pointer {
@@ -737,6 +785,10 @@ video {
   gap: 1.5rem;
 }
 
+.overflow-visible {
+  overflow: visible;
+}
+
 .scroll-smooth {
   scroll-behavior: smooth;
 }
@@ -749,6 +801,10 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
@@ -757,6 +813,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\'MEDIA\/hero\.png\'\)\] {
@@ -769,6 +830,10 @@ video {
 
 .bg-center {
   background-position: center;
+}
+
+.bg-bottom {
+  background-position: bottom;
 }
 
 .px-3 {
@@ -790,8 +855,16 @@ video {
   padding-left: 1.75rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
@@ -837,6 +910,10 @@ video {
   font-weight: 800;
 }
 
+.capitalize {
+  text-transform: capitalize;
+}
+
 .leading-none {
   line-height: 1;
 }
@@ -855,12 +932,21 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity, 1));
+}
+
 .opacity-0 {
   opacity: 0;
 }
 
 .opacity-100 {
   opacity: 1;
+}
+
+.opacity-30 {
+  opacity: 0.3;
 }
 
 .transition-all {
